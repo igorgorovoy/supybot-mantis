@@ -93,7 +93,7 @@ class Mantis(callbacks.PluginRegexp):
             schedule.removeEvent(self.name())
 
 
-def _bugPeriodicCheck(self):
+    def _bugPeriodicCheck(self):
         irc = self.irc
         newBug = self.server.mc_issue_get_biggest_id( username=self.username,
             password=self.password, project_id = 0 ) + 1

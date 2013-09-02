@@ -46,8 +46,18 @@ __author__ = supybot.Author('Gianluca Sforna', 'giallu',
 
 # This is a dictionary mapping supybot.Author instances to lists of
 # contributions.
-__contributors__ = { supybot.Author('Olivier Guerrier', 'wolog',
-                                    'olivier@guerrier.com'): ['template for bug details','bugPeriodicCheck feature'] }
+__contributors__ = {
+    supybot.Author('Olivier Guerrier', 'wolog', 'olivier@guerrier.com'):
+                   ['template for bug details','bugPeriodicCheck feature'],
+    supybot.Author('John Reese', 'jreese', 'john@noswap.com'):
+                   ['bug fixes', 'private URL support'] ,
+    supybot.Author('Damien Regad', 'dregad', 'dregad@mantisbt.org'):
+                   ['bug fixes'],
+    supybot.Author('Hugues Hiegel', 'hugues', 'hugues.hiegel@openwide.fr'):
+                   ['bug fixes'],
+    supybot.Author('Seth Aten', 'SethAten', 'seth@bloodstreamstudios.com'):
+                   ['bug fixes'],
+    }
 
 # This is a url where the most recent plugin package can be downloaded.
 __url__ = 'http://github.com/giallu/supybot-mantis'
