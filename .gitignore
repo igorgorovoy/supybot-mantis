@@ -1,0 +1,8 @@
+# Python
+*.pyc
+
+# Editors
+*.bak
+*.swp
+*~
+.project
